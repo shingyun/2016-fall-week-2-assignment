@@ -9,3 +9,50 @@ body{
     font-size:16px;
     font-family:Helvetica,Arial,sans-serif;
 }
+.content{color: blue;
+         position: relative;
+         float: left;
+         width:66%;
+}
+.sidebar{color: red;
+         position: relative;
+         float: left;
+         width: 33.3%;}
+.content p, .sidebar p{font-family: Georgia,Arial,sans-serif;}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+article{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#lead{
+	margin: auto 1%;
+	width: 98%;
+}
+.content article{
+	width: 48%;
+	margin: auto 1%;
+	position: relative;
+	float: left;
+    border-bottom: 1px solid blue;
+}
+.article h2{
+    font-size: 1.2em;
+}
+
+#lead h2{
+    font-size: 1.8em;
+}
+
+#qq{
+    font-size: 1.8em;
+}
+
+
